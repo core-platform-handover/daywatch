@@ -1,0 +1,22 @@
+{
+    "name": "oritech/daywatch",
+    "description": "Daywatch monitoring agent",
+    "autoload": {
+        "psr-4": {
+            "Oritech\\Daywatch\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Oritech",
+            "email": "dev@oritech.io"
+        }
+    ],
+    "require": {
+        "react/http": "^1.11",
+        "react/socket": "^1.16",
+        "illuminate/support": "^13.0",
+        "illuminate/console": "^13.0",
+        "symfony/console": "^8.0"
+    }
+}
