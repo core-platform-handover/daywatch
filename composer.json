@@ -1,6 +1,7 @@
 {
     "name": "oritech/daywatch",
     "description": "Daywatch monitoring agent",
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "Oritech\\Daywatch\\": "src/"
